@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
             {/* Header */}
-            <div className="navbar bg-base-400 rounded-lg shadow-lg flex md:flex-row  md:items-center md:justify-between mt-2">
+            <div className="navbar bg-slate-50 rounded-lg shadow-lg flex md:flex-row  md:items-center md:justify-between mt-2">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -90,9 +90,9 @@ const Header = () => {
                     <h1 className="font-serif font-bold text-4xl my-3">Featured Jobs</h1>
                     <p className='text-slate-400 leading-6 text-sm font-semibold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div className=''>
+                <div className='grid grid-cols-2 gap-5 w-[80%] mx-auto'>
 
-                    <div className='text-left'>
+                    <div className='col text-left bg-gray-200 p-4 rounded-lg'>
                         <img src="/assets/Logo/google-1-1 1-1.png" alt="" />
                         <h4 className='my-5 text-lg font-bold'>Technical Database Engineer</h4>
                         <p className='font-bold text-gray-600 mb-4'>Google LLC</p>
@@ -101,22 +101,83 @@ const Header = () => {
                             <button className="btn btn-outline btn-primary text-primary-focus">Full Time</button>
                         </div>
                         <div className='flex gap-5 mb-3'>
-                            <span><img src="/assets/Icons/Frame-4.png" alt="" /></span>
-                           <p className='font-semibold text-lg text-gray-600'>Bangladesh,Dhaka</p>
-                           <span><img src="/assets/Icons/Frame.png" alt="" /></span>
-                           <p className='font-semibold text-lg text-gray-600'>Salary : 250 $</p>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame-4.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Bangladesh,Dhaka</p>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Salary : 250 $</p>
+                            </div>
+                        </div>
+                        <button className='btn btn-primary  '>View Detail </button>
+                    </div>
+                    <div className='col text-left bg-gray-200 p-4 rounded-lg'>
+                        <img src="/assets/Logo/google-1-1 1-1.png" alt="" />
+                        <h4 className='my-5 text-lg font-bold'>Technical Database Engineer</h4>
+                        <p className='font-bold text-gray-600 mb-4'>Google LLC</p>
+                        <div className='flex gap-4 mb-3 '>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Remote</button>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Full Time</button>
+                        </div>
+                        <div className='flex gap-5 mb-3'>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame-4.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Bangladesh,Dhaka</p>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Salary : 250 $</p>
+                            </div>
+                        </div>
+                        <button className='btn btn-primary  '>View Detail </button>
+                    </div>
+                    <div className='col text-left bg-gray-200 p-4 rounded-lg'>
+                        <img src="/assets/Logo/google-1-1 1-1.png" alt="" />
+                        <h4 className='my-5 text-lg font-bold'>Technical Database Engineer</h4>
+                        <p className='font-bold text-gray-600 mb-4'>Google LLC</p>
+                        <div className='flex gap-4 mb-3 '>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Remote</button>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Full Time</button>
+                        </div>
+                        <div className='flex gap-5 mb-3'>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame-4.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Bangladesh,Dhaka</p>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Salary : 250 $</p>
+                            </div>
+                        </div>
+                        <button className='btn btn-primary  '>View Detail </button>
+                    </div>
+                    <div className='col text-left bg-gray-200 p-4 rounded-lg'>
+                        <img src="/assets/Logo/google-1-1 1-1.png" alt="" />
+                        <h4 className='my-5 text-lg font-bold'>Technical Database Engineer</h4>
+                        <p className='font-bold text-gray-600 mb-4'>Google LLC</p>
+                        <div className='flex gap-4 mb-3 '>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Remote</button>
+                            <button className="btn btn-outline btn-primary text-primary-focus">Full Time</button>
+                        </div>
+                        <div className='flex gap-5 mb-3'>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame-4.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Bangladesh,Dhaka</p>
+                            </div>
+                            <div className='flex justify-center items-center'>
+                                <img src="/assets/Icons/Frame.png" alt="" />
+                                <p className='font-semibold text-lg text-gray-600'>Salary : 250 $</p>
+                            </div>
                         </div>
                         <button className='btn btn-primary  '>View Detail </button>
                     </div>
 
-                    <div></div>
-                    <div></div>
-                    <div></div>
 
                 </div>
 
             </section>
-
+            <button className="btn btn-primary my-8 w-44">See all</button>
         </div>
     );
 };
