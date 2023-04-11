@@ -4,6 +4,7 @@ const Header = () => {
  
   return (
     <div>
+      {/* Header Section */}
       <div className="navbar bg-slate-200 rounded-lg shadow-lg flex md:flex-row  md:items-center md:justify-between mt-2">
         <div className="navbar-start">
           <div className="dropdown">

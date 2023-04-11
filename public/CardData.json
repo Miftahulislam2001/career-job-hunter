@@ -1,5 +1,5 @@
-{
-    "jobs": [
+
+     [
         {
             "id": 1,
             "companyLogo": "https://example.com/logo1.png",
@@ -96,5 +96,5 @@
             "phone": "+1 (555) 777-8888",
             "email": "jobs@xyzcorp.com"
         }
+
     ]
-}
