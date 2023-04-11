@@ -1,6 +1,7 @@
 import React from "react";
 
 const Header = () => {
+ 
   return (
     <div>
       <div className="navbar bg-slate-200 rounded-lg shadow-lg flex md:flex-row  md:items-center md:justify-between mt-2">
@@ -24,7 +25,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl font-bold font-serif">CareerHub</a>
+          <a className="btn btn-ghost normal-case text-2xl font-bold font-serif">CodeVerse</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
