@@ -1,68 +1,121 @@
-import React from "react";
+/** @format */
 
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 const Header = () => {
- 
-  return (
-    <div>
-      {/* Header Section */}
-      <div className="navbar bg-slate-200 rounded-lg shadow-lg flex md:flex-row  md:items-center md:justify-between mt-2">
-        <div className="navbar-start">
-          <div className="dropdown">
+	const [menuIsOpen, setMenuIsOpen] = useState(false);
 
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <a>Home</a>
-              </li>
-              <li tabIndex={0}>
-                <a className="justify-between font-bold">
-                  Statistics
-                </a>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div>
-          <a className="btn btn-ghost normal-case text-2xl font-bold font-serif">CodeVerse</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-semibold">
-            <li>
-              <a>Home</a>
-            </li>
-            <li tabIndex={0}>
-              <a>Statistics</a>
-            </li>
-            <li>
-              <a>Applied Jobs</a>
-            </li>
-            <li>
-              <a>Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn btn-primary">Start Applying</a>
-        </div>
-      </div>
+	return (
+		<div className='component-container'>
+			<div className='hidden md:flex items-center justify-between'>
+				<Link to={"/"}>
+					<h1 className='text-2xl font-bold'>JObHunter</h1>
+				</Link>
+				<ul className='flex items-center gap-10'>
+					<li>
+						<NavLink
+							to={"/"}
+							className={`${({ isActive }) =>
+								isActive ? "actuve" : "default"}`}
+						>
+							Home
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to={"/statistics"}
+							className={`${({ isActive }) =>
+								isActive ? "actuve" : "default"}`}
+						>
+							Statistics
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to={"showappliedJob"}
+							className={`${({ isActive }) =>
+								isActive ? "actuve" : "default"}`}
+						>
+							Applied Jobs
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to={"blog"}
+							className={`${({ isActive }) =>
+								isActive ? "actuve" : "default"}`}
+						>
+							Blog
+						</NavLink>
+					</li>
+				</ul>
 
-      {/* Banner Section */}
-      <section className='flex flex-col md:flex-row my-5 items-center bg-slate-200 p-5 rounded-md'>
-        <div className='w-full md:w-1/2 md:pr-10 text-left md:text-center'>
-          <h1 className='font-serif font-bold text-5xl md:text-6xl mb-5 md:leading-loose'>One Step <br /> Closer To Your <br /> <span className='text-primary-focus'>Dream Job</span></h1>
-          <p className='text-gray-600 font-sans font-semibold leading-7 mb-5 md:text-lg'>Explore thousands of job opportunities with all the information you need. It's your future. Come find it. Manage all your job applications from start to finish.</p>
-          <button className="btn btn-primary">Get Started</button>
-        </div>
-        <div className='w-full md:w-1/2 mb-5 md:mb-0'>
-          <img className='mx-auto md:mx-0' src="/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
-        </div>
-      </section>
+				<Link>
+					<button className='btn'>Star Applying</button>
+				</Link>
+			</div>
 
-    </div>
-  );
+			{/* this is for moble  */}
+			<div className='md:hidden flex items-center justify-between relative'>
+				<Link to={"/"}>
+					<h1 className='text-2xl font-bold'>FindYourFuture</h1>
+				</Link>
+
+				<div onClick={() => setMenuIsOpen(!menuIsOpen)}>
+					{!menuIsOpen ? (
+						<Bars3Icon className='h-6 w-6 text-black' />
+					) : (
+						<XMarkIcon className='h-6 w-6 text-black' />
+					)}
+				</div>
+				<div
+					className={`${
+						!menuIsOpen ? "hidden" : ""
+					} absolute bg-gray-300 p-2 top-10 h-52 rounded-md`}
+				>
+					<ul className='flex flex-col gap-2'>
+						<li>
+							<NavLink
+								to={"/"}
+								className={`${({ isActive }) =>
+									isActive ? "actuve" : "default"}`}
+							>
+								Home
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to={"/statistics"}
+								className={`${({ isActive }) =>
+									isActive ? "actuve" : "default"}`}
+							>
+								Statistics
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to={"appliedjobs"}
+								className={`${({ isActive }) =>
+									isActive ? "actuve" : "default"}`}
+							>
+								Applied Jobs
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to={"blog"}
+								className={`${({ isActive }) =>
+									isActive ? "actuve" : "default"}`}
+							>
+								Blog
+							</NavLink>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Header;
