@@ -39,9 +39,9 @@ const data = [
 	},
 	{
 		name: "Assignment 5",
-		uv: 60,
-		pv: 60,
-		amt: 60,
+		uv: 58,
+		pv: 58,
+		amt: 58,
 	},
 	{
 		name: "Assignment 6",
