@@ -18,7 +18,7 @@
         },
         {
 			"id": 2,
-			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
 			"jobTitle": "Marketing Manager",
 			"companyName": "XYZ Inc.",
 			"remoteOrOnsite": "Onsite",
@@ -34,7 +34,7 @@
 		},
         {
             "id": 3,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
             "jobTitle": "Accountant",
             "companyName": "LMN LLC",
             "remoteOrOnsite": "Remote",
@@ -50,7 +50,7 @@
         },
         {
 			"id": 4,
-			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
 			"jobTitle": "Software Engineer",
 			"companyName": "XYZ Corporation",
 			"remoteOrOnsite": "Onsite",
@@ -66,7 +66,7 @@
 		},
         {
             "id": 5,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sainsbury%27s_Logo.svg",
             "jobTitle": "Data Analyst",
             "companyName": "QRS Solutions",
             "remoteOrOnsite": "Onsite",
@@ -82,7 +82,7 @@
         },
         {
             "id": 6,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
             "jobTitle": "Software Engineer",
             "companyName": "XYZ Corporation",
             "remoteOrOnsite": "Onsite",
