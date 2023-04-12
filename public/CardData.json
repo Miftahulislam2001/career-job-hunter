@@ -2,7 +2,7 @@
      [
         {
             "id": 1,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "../assets/All Images/google-1-1 1.png",
             "jobTitle": "Software Engineer",
             "companyName": "ABC Company",
             "remoteOrOnsite": "Remote",
@@ -18,7 +18,7 @@
         },
         {
 			"id": 2,
-			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+			"companyLogo": "../assets/All Images/netflix-4 1.png",
 			"jobTitle": "Marketing Manager",
 			"companyName": "XYZ Inc.",
 
@@ -35,7 +35,7 @@
 		},
         {
             "id": 3,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "../assets/All Images/tesla-9 1.png",
             "jobTitle": "Accountant",
             "companyName": "LMN LLC",
             "remoteOrOnsite": "Remote",
@@ -51,7 +51,7 @@
         },
         {
 			"id": 4,
-			"companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+			"companyLogo": "../assets/All Images/Group 10021.png",
 			"jobTitle": "Software Engineer",
 			"companyName": "XYZ Corporation",
 			"remoteOrOnsite": "Onsite",
@@ -67,7 +67,7 @@
 		},
         {
             "id": 5,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "../assets/All Images/Group 10021.png",
             "jobTitle": "Data Analyst",
             "companyName": "QRS Solutions",
             "remoteOrOnsite": "Onsite",
@@ -83,7 +83,7 @@
         },
         {
             "id": 6,
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+            "companyLogo": "../assets/All Images/tesla-9 1.png",
             "jobTitle": "Software Engineer",
             "companyName": "XYZ Corporation",
             "remoteOrOnsite": "Onsite",
