@@ -1,7 +1,7 @@
 ## jobHunter
 
 ## Live Link
-Hosted in Netlify -> [jobHunter](link.....)
+Hosted in Netlify -> [jobHunter](https://gleeful-scone-d850f8.netlify.app/)
 
 ## This website feature
 
